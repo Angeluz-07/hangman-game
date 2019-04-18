@@ -1,10 +1,9 @@
 # TextClient
 
-From ./hangman project in one terminal run `iex --sname hangman -S mix`
-From ./text_client in another(s) terminal(s) run `iex --sname clientN -S mix` and then `TextClient.start`
-(the last line doesn't work fully, maybe some trouble about ports)
+1. From ./hangman project in one terminal run `iex --sname hangman -S mix`
+2. From ./text_client in another(s) terminal(s) run `iex --sname clientN -S mix` and then `TextClient.start`
+3. Run `:observer.start()` to see how new servers are attached per client
 
-Run :observer.start() to see how new servers are attached per client
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
